@@ -20,8 +20,9 @@ export const projects = [
 ]
 
 export const skills = [
-  { category: 'Languages', items: ['Add a language'] },
-  { category: 'Frameworks & libraries', items: ['Add a framework or library'] },
-  { category: 'Databases', items: ['Add a database'] },
-  { category: 'Infrastructure', items: ['Add an infrastructure tool'] },
+  { category: 'Languages', items: ['Python', 'Go', 'C++', 'SQL', 'Java', 'TypeScript', 'JavaScript', 'Bash'] },
+  { category: 'Frameworks', items: ['React', 'Next.js', 'Express.js', 'Hono', 'FastAPI', 'Robot Framework', 'JUnit', 'Mockito'] },
+  { category: 'Databases', items: ['PostgreSQL', 'MongoDB', 'DynamoDB'] },
+  { category: 'Infrastructure', items: ['AWS', 'Terraform', 'Docker', 'GitHub Actions'] },
+  { category: 'Tools', items: ['Git', 'Linux', 'Node.js', 'Drizzle ORM', 'SQLAlchemy', 'YOLOv8', 'OpenCV'] },
 ]
