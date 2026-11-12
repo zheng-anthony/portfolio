@@ -5,7 +5,7 @@ import {
   siNodedotjs, siDrizzle, siSqlalchemy, siYolo, siOpencv,
 } from 'simple-icons'
 
-const icons = {
+const icons: Record<string, { path: string }> = {
   Python: siPython, Go: siGo, 'C++': siCplusplus, Java: siOpenjdk,
   TypeScript: siTypescript, JavaScript: siJavascript, Bash: siGnubash,
   React: siReact, 'Next.js': siNextdotjs, 'Express.js': siExpress, Hono: siHono,
@@ -16,7 +16,7 @@ const icons = {
   YOLOv8: siYolo, OpenCV: siOpencv,
 }
 
-export default function SkillIcon({ name }) {
+export default function SkillIcon({ name }: { name: string }) {
   const icon = icons[name]
   if (icon) return <svg className="h-4 w-4 shrink-0 fill-current text-[#70dd99]" viewBox="0 0 24 24" aria-hidden="true"><path d={icon.path} /></svg>
 

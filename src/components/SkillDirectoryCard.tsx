@@ -1,6 +1,7 @@
 import SkillIcon from './SkillIcon'
+import type { SkillCategory } from '../types/portfolio'
 
-export default function SkillDirectoryCard({ category, items }) {
+export default function SkillDirectoryCard({ category, items }: SkillCategory) {
   const directory = category.toLowerCase().replace(/\s+/g, '-')
 
   return (

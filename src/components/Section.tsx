@@ -1,7 +1,15 @@
 import { useEffect, useRef } from 'react'
+import type { ReactNode } from 'react'
 
-export default function Section({ id, title, children, showHeading = true }) {
-  const contentRef = useRef(null)
+interface SectionProps {
+  id: string
+  title: string
+  children: ReactNode
+  showHeading?: boolean
+}
+
+export default function Section({ id, title, children, showHeading = true }: SectionProps) {
+  const contentRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
     const content = contentRef.current
     if (!content || !('IntersectionObserver' in window)) return
