@@ -2,9 +2,9 @@
 
 ## Purpose and audience
 
-This is Anthony Zheng's single-page software engineering portfolio. It is intended to help hiring managers quickly understand his experience, projects, and technical skills, with a focus on backend systems, databases, and cloud infrastructure.
+This is Anthony Zheng's single-page software engineering portfolio. It is intended to help hiring managers quickly understand his experience and technical skills, with a focus on backend systems, databases, and cloud infrastructure.
 
-Keep the page readable, easy to scan, responsive, and straightforward to navigate. The current section order is Hero, About (including Education), Experience, Projects, Skills, and Contact. Keep the sticky header navigation in the same order as the sections.
+Keep the page readable, easy to scan, responsive, and straightforward to navigate. The current section order is Hero, About (including Education), Experience, Skills, and Contact. Keep the sticky header navigation in the same order as the sections.
 
 ## Stack and structure
 
@@ -24,9 +24,9 @@ Keep the page readable, easy to scan, responsive, and straightforward to navigat
 
 ## Content
 
-- Treat `src/data/portfolio.ts` as the source of truth for profile details, experience, projects, and skills.
+- Treat `src/data/portfolio.ts` as the source of truth for profile details, experience, and skills.
 - Do not invent personal details, dates, employers, project descriptions, links, or qualifications. Use clearly marked placeholders until the information is supplied.
-- Experience entries form a timeline. Experience and project descriptions are intentionally omitted for now unless requested.
+- Experience entries form a timeline and use concise paragraphs. Do not add a projects section unless requested.
 - Use plain, concise, user-facing language. Avoid filler and unnecessary visual decoration.
 
 ## Checks

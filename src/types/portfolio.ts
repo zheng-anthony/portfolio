@@ -4,19 +4,20 @@ export interface Profile {
   linkedin: string
   resume: string
   email: string
-  education: string
+  education: Education
+}
+
+export interface Education {
+  institution: string
+  dates: string
+  degree: string
 }
 
 export interface Experience {
   role: string
   organization: string
   date: string
-}
-
-export interface Project {
-  name: string
-  type: string
-  link: string
+  description: string
 }
 
 export interface SkillCategory {

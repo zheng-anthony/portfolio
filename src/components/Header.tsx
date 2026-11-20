@@ -1,4 +1,4 @@
-const links = ['About', 'Experience', 'Projects', 'Skills', 'Contact']
+const links = ['About', 'Experience', 'Skills', 'Contact']
 
 export default function Header() {
   return (
